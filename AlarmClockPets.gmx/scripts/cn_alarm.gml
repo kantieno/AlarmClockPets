@@ -12,6 +12,6 @@ if (global.minute < 10)
     minute = "0" + string(global.minute);
 else
     minute = string(global.minute);
-draw_text(300,320, string(global.hour) +":" + minute);
+draw_text(300,382, string(global.hour) +":" + minute);
 
 

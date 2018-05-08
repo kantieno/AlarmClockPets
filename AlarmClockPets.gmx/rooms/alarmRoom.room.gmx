@@ -3,8 +3,8 @@
   <caption></caption>
   <width>720</width>
   <height>1280</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>9</vsnap>
+  <hsnap>9</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -51,12 +51,18 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="buttonPet" x="32" y="832" name="inst_FD0E8BB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controllerAlarm" x="32" y="32" name="inst_C99B074A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="alarmbuttonHour" x="224" y="192" name="inst_957D4FF5" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="alarmButtonMinute" x="416" y="192" name="inst_7768B698" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="alarmButtonUpdate" x="384" y="832" name="inst_09AF831A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="slider_hour" x="288" y="320" name="inst_7BDD18E6" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="alarmbuttonHour" x="256" y="256" name="inst_957D4FF5" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="alarmButtonMinute" x="396" y="252" name="inst_7768B698" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="alarmButtonUpdate" x="27" y="900" name="inst_09AF831A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slider_hour" x="225" y="414" name="inst_7BDD18E6" locked="0" code="" scaleX="4.21999979019165" scaleY="3.9375" colour="4294967295" rotation="0"/>
+    <instance objName="slider_minute" x="369" y="414" name="inst_45EB71EB" locked="0" code="" scaleX="4.06451606750488" scaleY="3.9375" colour="4294967295" rotation="0"/>
+    <instance objName="buttonGame" x="27" y="1116" name="inst_3CE77EA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="buttonShop" x="369" y="1116" name="inst_BEB88790" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="buttonSettings" x="540" y="1116" name="inst_951A1295" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="buttonScene" x="198" y="1116" name="inst_EDBD10EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="buttonHome" x="0" y="96" name="inst_0452920A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="buttonPetChange" x="369" y="900" name="inst_7471A610" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

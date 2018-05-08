@@ -3,8 +3,8 @@
   <caption></caption>
   <width>720</width>
   <height>1280</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>9</vsnap>
+  <hsnap>9</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -51,11 +51,15 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="buttonPet" x="32" y="864" name="inst_FD0E8BB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="backgroundChange" x="32" y="1088" name="inst_BBC84BEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="backgroundChange" x="192" y="1088" name="inst_627042F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="backgroundChange" x="352" y="1088" name="inst_A54EB096" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="backgroundChange" x="512" y="1088" name="inst_12F7B331" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="backgroundChange" x="27" y="1116" name="inst_BBC84BEA" locked="0" code="num = 0;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="backgroundChange" x="198" y="1116" name="inst_627042F7" locked="0" code="num = 1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="backgroundChange" x="369" y="1116" name="inst_A54EB096" locked="0" code="num = 2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="backgroundChange" x="540" y="1116" name="inst_12F7B331" locked="0" code="num = 3;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="backgroundChange" x="27" y="945" name="inst_347C7E02" locked="0" code="num = 0;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="backgroundChange" x="198" y="945" name="inst_AA00A65D" locked="0" code="num = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="backgroundChange" x="369" y="945" name="inst_E66F8CE0" locked="0" code="num = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="backgroundChange" x="540" y="945" name="inst_25C06C0E" locked="0" code="num = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="buttonHome" x="0" y="96" name="inst_B36AD5D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

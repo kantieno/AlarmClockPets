@@ -58,6 +58,7 @@
     <instance objName="buttonShop" x="369" y="1116" name="inst_6E35AFBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="buttonPetChange" x="369" y="900" name="inst_2B7554AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="buttonSettings" x="540" y="1116" name="inst_ACDD5CC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="petChange" x="63" y="1692" name="inst_0112E65C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

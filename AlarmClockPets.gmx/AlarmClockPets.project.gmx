@@ -16,12 +16,25 @@
     <sprite>sprites\spr_menu_back</sprite>
     <sprite>sprites\spri_button_pet</sprite>
     <sprite>sprites\spr_button_scene</sprite>
+    <sprite>sprites\spr_small_blank</sprite>
     <sprite>sprites\spr_button_shop</sprite>
     <sprite>sprites\spr_button_settings</sprite>
     <sprite>sprites\spr_back_grass0</sprite>
     <sprite>sprites\spr_back_grass1</sprite>
     <sprite>sprites\spr_ui_top</sprite>
     <sprite>sprites\spr_clothing_eyewear1</sprite>
+    <sprite>sprites\spr_pet0</sprite>
+    <sprite>sprites\spr_back_grass2</sprite>
+    <sprite>sprites\spr_back_grass3</sprite>
+    <sprite>sprites\spr_clothing_hat1</sprite>
+    <sprite>sprites\spr_clothing_hat2</sprite>
+    <sprite>sprites\home</sprite>
+    <sprite>sprites\spr_game_heart0</sprite>
+    <sprite>sprites\spr_game_heart1</sprite>
+    <sprite>sprites\spr_pet_eyes0</sprite>
+    <sprite>sprites\spr_clothing_hat_hurt</sprite>
+    <sprite>sprites\spr_pet_mouth0</sprite>
+    <sprite>sprites\spr_pet_mouth_hurt</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -40,6 +53,8 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\normal</font>
+    <font>fonts\big</font>
+    <font>fonts\bigger</font>
   </fonts>
   <objects name="objects">
     <object>objects\controller</object>
@@ -48,10 +63,11 @@
     <object>objects\buttonShop</object>
     <object>objects\buttonSettings</object>
     <object>objects\buttonAlarm</object>
-    <object>objects\buttonPet</object>
+    <object>objects\buttonHome</object>
     <object>objects\buttonPetChange</object>
     <object>objects\controllerMinigame</object>
     <object>objects\slider_hour</object>
+    <object>objects\slider_minute</object>
     <object>objects\gm_meteor</object>
     <object>objects\menuBack</object>
     <object>objects\controllerAlarm</object>
@@ -59,6 +75,9 @@
     <object>objects\alarmButtonMinute</object>
     <object>objects\alarmButtonUpdate</object>
     <object>objects\backgroundChange</object>
+    <object>objects\petEyewearChange</object>
+    <object>objects\petHatChange</object>
+    <object>objects\petUnlockHat</object>
     <object>objects\petChange</object>
   </objects>
   <rooms name="rooms">
@@ -67,6 +86,7 @@
     <room>rooms\alarmRoom</room>
     <room>rooms\backRoom</room>
     <room>rooms\petRoom</room>
+    <room>rooms\room5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
